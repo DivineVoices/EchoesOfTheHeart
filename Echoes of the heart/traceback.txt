@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 8, in script call
+    call ch0
+  File "Echoes of the heart/game/script_ch0.rpy", line 140, in script
+Exception: Sayer 'co' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 8, in script call
+    call ch0
+  File "Echoes of the heart/game/script_ch0.rpy", line 140, in script
+  File "C:\Users\moshi\Desktop\Creative\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\moshi\Desktop\Creative\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\moshi\Desktop\Creative\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'co' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+Echoes of the heart 1.0
+Wed Jul 31 00:09:40 2024

@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script_ch0.rpy", line 188: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+                n "Nous nous levons tous les deux des gradins et nous nous dirigeons vers le terrain de volley où je trouve le coin de sol le plus confortable possible. 
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Wed Jul 31 01:32:13 2024
