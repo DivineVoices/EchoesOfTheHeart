@@ -154,8 +154,6 @@ label ch0_misuto:
             n "Elle me tend la main pour me relever, j'ai vraiment besoin de me reposer après ça."
             n "Nous restons ensemble près des gradins, la détente envahit mon corps. Je ferme les yeux."
 
-            return
-
         "Parle-moi un peu de ce club":
             mc "Peux-tu me parler un peu plus du club de sport ?"
             mi "Bien sûr !"

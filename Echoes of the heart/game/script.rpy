@@ -3,7 +3,7 @@
         mc = renpy.input("Votre nom ?", length=12)
         mc = mc.strip()
         if not mc:
-            mc = "Ruan Mei"
+            mc = "Player"
             
     call ch0
     
