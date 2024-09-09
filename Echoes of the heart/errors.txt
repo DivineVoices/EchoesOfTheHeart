@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script_ch0.rpy", line 10: Line is indented, but the preceding play statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    sfx "toc toc toc"
-    ^
+File "game/script_ch0.rpy", line 40: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        n "Mais plus j'y pense, plus je vais stresser, alors il est temps de se mettre en route et d'essayer de parler aux gens. 
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Mon Sep  9 18:38:50 2024
+Mon Sep  9 19:14:02 2024

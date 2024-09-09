@@ -35,8 +35,10 @@ label ch0:
     n "Mais je ne m'y attarde pas trop longtemps, car je suis déjà sur le point d'être en retard, maman avait raison de dire que je suis un gros dormeur"
     n "Avec le ventre plein et beaucoup de motivation, je me précipite hors de la maison à toute vitesse"
     show school with in_eye
-    n "Nous y voilà... Ce n'est pas si intimidant quand on s'approche. Jusqu'à ce que la réalisation que c'est un moment décisif pour ma vie sociale frappe ; et tout à coup, c'est extrêmement intimidant"
-    n "Mais plus j'y pense, plus je vais stresser, alors il est temps de se mettre en route et d'essayer de parler aux gens. Voyons ce qui semble intéressant."
+    n "Nous y voilà... Ce n'est pas si intimidant quand on s'approche."
+    n "Jusqu'à ce que la réalisation que c'est un moment décisif pour ma vie sociale frappe ; et tout à coup, c'est extrêmement intimidant"
+    n "Mais plus j'y pense, plus je vais stresser, alors il est temps de se mettre en route et d'essayer de parler aux gens."
+    n "Voyons ce qui semble intéressant."
 
     menu line:
         "Bibliothèque":
@@ -72,7 +74,8 @@ label ch0_izu:
 
 label ch0_misuto:
     show sport with dissolve
-    n "J'observais à travers une porte double entrouverte, et je remarque qu'un match de volley était en plein déroulement. Je décide alors d’entrer et c’est là qu’un ballon vient voltiger vers ma direction"
+    n "J'observais à travers une porte double entrouverte, et je remarque qu'un match de volley était en plein déroulement."
+    n "Je décide alors d’entrer et c’est là qu’un ballon vient voltiger vers ma direction"
     un "Eh Mei ! Fais attention où tu tires la prochaine fois !"
     n "Une jeune fille vient de rattraper d’une vitesse le ballon qui arrivait à une vitesse fatale. Vêtue d’une veste sur l’uniforme scolaire, elle arborait une belle queue de cheval et un sourire radieux"
     show misute:
@@ -95,8 +98,7 @@ label ch0_misuto:
             mc "pour respirer"
             un "Je suis vraiment"
             un "vraiment"
-            un "vraiment"
-            un "vraiment"
+            un "vraiment vraiment"
             un "VRAIMENT"
             un "désolée"
             un "tu as besoin d'aller à l'infirmerie ?"
