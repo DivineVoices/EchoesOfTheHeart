@@ -6,6 +6,7 @@ label ch0:
     camera:
         perspective True
 
+    play audio "door.mp3"
     sfx "toc toc toc"
     n "Un bâillement m'échappe"
     window auto hide
@@ -39,18 +40,21 @@ label ch0:
 
     menu line:
         "Bibliothèque":
+            play audio "select.mp3"
             jump ch0_hotaru
         "BDE":
+            play audio "select.mp3"
             jump ch0_yuzu
         "Terrain de sport":
-            play audio "door.mp3"
+            play audio "select.mp3"
             mc "Le terrain de sport semble être un bon endroit pour la camaraderie, peut-être que je m'intégrerai plus facilement dans un groupe"
             jump ch0_misuto
         "Club de théatre":
+            play audio "select.mp3"
             jump ch0_yamano
         "Allez en classe":
+            play audio "select.mp3"
             jump ch0_izu           
-
     return
 
 
@@ -79,11 +83,13 @@ label ch0_misuto:
     n "C’était un peu surprenant mais je ne suis pas à l'hôpital donc on peut considérer ça comme une victoire."
     menu:
         "Juste une petite frayeur":
+            play audio "select.mp3"
             mc "Ça va, c'était juste une petite frayeur"
             mc "je vais m'en remettre"
             mi "D'accord, super à entendre ! Je suis sûre que tu seras de nouveau sur pied en un rien de temps"
             n "Misute me fait asseoir sur les gradins un moment"
         "J'ai besoin d'un moment pour respirer":
+            play audio "select.mp3"
             mc "C'était terrifiant..."
             mc " Je pense que j'ai besoin d'un moment..."
             mc " pour respirer"
@@ -109,6 +115,7 @@ label ch0_misuto:
     
     menu:
         "Je suis toujours partant pour une course":
+            play audio "select.mp3"
             mc "Une course, ça a l'air amusant ! Je suis toujours partant pour une course."
             mi "Génial ! Allons te faire inscrire et te préparer."
             mi "Ce sera une bonne occasion pour toi de rencontrer les autres aussi."
@@ -124,10 +131,12 @@ label ch0_misuto:
             
             menu:
                 "Je m'éclate !":
+                    play audio "select.mp3"
                     mc "C'est amusant ! Je ne me rendais pas compte à quel point ça m'avait manqué ce genre de chose."
                     mi "N'est-ce pas ? Rien de plus motivant que de se donner à fond avant une course vraiment importante."
                     mi "Il faut juste continuer à tout donner, de cette façon tu obtiens la plus grande récompense !"
                 "Tout brûle...":
+                    play audio "select.mp3"
                     mc "Tout brûle... Est-ce trop tard pour renoncer ?"
                     mi "Allez, ça veut dire que tu fais bien les choses !"
                     mi "Si tu commences quelque chose, vas jusqu'au bout ! La victoire sera d'autant plus douce à la fin, non ? Cela ne vaut-il pas tous ces efforts ?"
@@ -169,10 +178,12 @@ label ch0_misuto:
 
             menu:
                 "Je suis convaincu":
+                    play audio "select.mp3"
                     mc "C'est tout ce que j'avais besoin d'entendre, compte sur moi à partir de maintenant !"
                     mi "C'est l'esprit !"
                     n "Misute me donne un gros câlin qui dure un temps très gênant. Je dois physiquement la repousser pour qu'elle arrête. Cependant, elle finit par me lâcher. Je sais maintenant ce que c'est que de lutter contre quelqu'un avec la force d'un ours, génial."
                 "Je ne suis pas convaincu":
+                    play audio "select.mp3"
                     mc "J'aimerais faire un tour avec tout le monde d'abord avant de m'engager dans un club."
                     n "Misute regarde le sol tristement, puis me regarde de nouveau, enroulant son bras autour de mon cou."
                     mi "Je dois admettre, ce n'était pas la réponse que j'espérais."
@@ -202,10 +213,12 @@ label ch0_misuto:
 
             menu:
                 "Ouais c'était super":
+                    play audio "select.mp3"
                     mc "Absolument. Je comprends pourquoi tu es si passionnée par ça. Ton énergie et vôtre synergie étaient incroyables."
                     mi "Contente que tu aies apprécié. Peut-être que la prochaine fois, tu seras avec nous sur le terrain, non ? Je pense que tu passerais un super moment."
                     mc "Seulement si la prochaine fois inclut quelques conseils personnalisés de la reine du volley elle-même."
                 "Pff, je pourrais faire mieux":
+                    play audio "select.mp3"
                     mc "Pff, c'était correct, je pourrais faire mieux."
                     mi "Mieux vaut que tu mettes ton argent là où ta bouche est alors, la prochaine fois, nous mettons les enjeux !"
                     n "Misute me donne le sourire le plus confiant, je ne sais pas si défier elle était la meilleure idée, mais maintenant nous sommes engagés. Elle regarde ensuite le sol, fatiguée."
@@ -220,6 +233,7 @@ label ch0_misuto:
             n "Misute me sourit alors que nous nous allongeons sur les bancs, épuisés."
 
         "Reposons-nous un peu":
+            play audio "select.mp3"
             mc "Je suis encore un peu sous le choc, reposons-nous un peu."
             mi "Ça me va, j'aurais bien besoin d'une petite pause après ce match."
             n "Misute se lève et me conduit à son coin de détente, un joli petit coin à l'ombre près des gradins. Elle s'allonge alors et ferme les yeux, elle a l'air très confortable malgré le fait qu'elle soit allongée sur le sol. J'essaie de faire de mon mieux pour être aussi confortable qu'elle en m'allongeant, moi aussi, sur le sol à côté d'elle. Mon dos va me détester plus tard."
@@ -230,6 +244,7 @@ label ch0_misuto:
             n "C'est peut-être mon moyen d'apprendre plus sur ses autres hobbies ! "
             menu:
                     "En parlant de ça, quel genre de musique aimes-tu ?":
+                        play audio "select.mp3"
                         mc "En parlant de ça, quel est ton genre de musique préféré ? Peut-être que je pourrais en mettre."
                         n "Misute hésite, puis commence à balancer la tête de gauche à droite en parlant."
                         mi "Pas pour la détente, mais un bon vieux rock avant de faire quoi que ce soit, et ma motivation augmente dix fois." 
@@ -237,6 +252,7 @@ label ch0_misuto:
                         mi "Ou bien, je dis rock mais tout ce qui est motivant fait des merveilles pour l'âme."
                         mi "Mais quoi qu'il en soit, on ne peut pas se tromper avec les classiques."
                     "À part la musique, que fais-tu pour te détendre ?":
+                        play audio "select.mp3"
                         mc "À part la musique, qu'aimes-tu faire pour te détendre ?"
                         mi "Hm, rien ne me fait plus de bien qu'un bon repas."
                         mi "Si tu cherches des recommandations, le curry du restaurant au bout de la rue, ça ne peut pas être mieux."
@@ -253,6 +269,7 @@ label ch0_misuto:
             mi "Tu as déjà joué aux fers à cheval ? On peut faire une petite partie avant d'aller en cours."
             menu:
                 "Je suis un pro du fer à cheval, regarde ça.":
+                    play audio "select.mp3"
                     mc "On m'appelait « le cow-boy » au lycée pour une raison, je suis un pro."
                     n "Je prends le fer à cheval de sa main et le serre avec une confiance absolue après cette réplique magnifique."
                     mc "Regarde ça, facile comme bonjour."
@@ -266,6 +283,7 @@ label ch0_misuto:
                     n "Alors que nous regardons tous les deux, stupéfaits, les piquets encore debout"
                     n "Nous nous regardons et convenons d'un commun accord que la première manche n'a jamais eu lieu, maintenant le VRAI jeu commence."
                 "Je n'ai aucune idée de ce qu'il faut faire.":
+                    play audio "select.mp3"
                     mc "Je n'ai aucune idée de ce qu'il faut faire. Je n'ai jamais joué aux fers à cheval avant."
                     n "Misute rit, un éclat espiègle dans les yeux."
                     mi "Ne t'inquiète pas, [mc]. C'est assez simple. Laisse-moi te montrer comment on fait. "
@@ -342,9 +360,11 @@ label ch0_misuto:
     n "Misute reste penchée au-dessus du chat tandis que je m'éloigne un peu."
     menu:
         "Parlons après les cours":
+            play audio "select.mp3"
             mc "Eh bien, on se voit après les cours, hein ?"
             mi "Ça marche, à plus tard ! Bonne chance"
         "Je dois y aller d’urgence":
+            play audio "select.mp3"
             mc "J'ai passé un bon moment, mais je dois y aller maintenant, à plus."
             mi "Pas de soucis, je devrais probablement commencer à y aller aussi."
             n "Elle me fait un signe de la main."
