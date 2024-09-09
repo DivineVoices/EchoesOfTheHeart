@@ -168,6 +168,7 @@ label ch0_misuto:
             n "Nous restons ensemble près des gradins, la détente envahit mon corps. Je ferme les yeux."
 
         "Parle-moi un peu de ce club":
+            play audio "select.mp3"
             mc "Peux-tu me parler un peu plus du club de sport ?"
             mi "Bien sûr !"
             n "Misute s'assoit à côté de moi, parlant de tout ce qui lui vient à l'esprit en regardant le ciel."
