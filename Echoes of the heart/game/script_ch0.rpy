@@ -44,7 +44,7 @@ label ch0:
         "BDE":
             jump ch0_yuzu
         "Terrain de sport":
-            play audio "Select.mp3"
+            play audio "select.mp3"
             mc "Le terrain de sport semble être un bon endroit pour la camaraderie, peut-être que je m'intégrerai plus facilement dans un groupe"
             jump ch0_misuto
         "Club de théatre":
