@@ -1,5 +1,6 @@
 # Fichier de definitions des images, fichier ect...
 
+define un = Character('???', color="#9b9b9bff")
 define m = Character('Maman', color="#76946d")
 define iz = Character('Izu', color="#fca2e1")
 define mi= Character('Misute', color="#d12c2c")
